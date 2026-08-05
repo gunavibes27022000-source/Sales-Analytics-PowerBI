@@ -191,9 +191,7 @@ VALUES
 			(3,  6,  1,  3500.00),
             (4,  7,  1,  799.00),
             (5,  3, 1,  45000.00);
-            
-TRUNCATE TABLE order_details;           
-            
+                       
             
 select * from order_details;            
 
@@ -298,7 +296,7 @@ ORDER BY total_revenue DESC
 LIMIT 3;
 
 SELECT * FROM products;
-SELECT * FROM order_ details;
+SELECT * FROM order_details;
 
 
 
@@ -325,7 +323,7 @@ SELECT  e.employee_name,
    LIMIT 1;
 
 
-SELECT * FROM empoyees;
+SELECT * FROM employees;
 
 
 SELECT  MONTH(order_date) AS sales_month,
